@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.main-container {
+   width: 1000px;
+   height: 6%; 
+   border: 2px solid yellow;
+   display: flex;
+   background-color: red;
+}
+
+.inner-container {
+    margin: 3%;
+
+   width: 900px;
+   height: 4%; 
+   border: 2px solid yellow;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.box {
+    flex:1;
+    border: 3px solid slateblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    gap: 30px;
+    margin: 3%;
+}
+.card{
+    flex: 1;
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 3%;
+}
+
+
+
+

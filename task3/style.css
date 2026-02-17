@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.main-container {
+   width: 1000px;
+   height: 6%; 
+   border: 2px solid yellow;
+   display: flex;
+   background-color: red;
+   margin: 300px;
+   gap: 20px;
+   padding: 50px;
+
+}
+.left-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box {
+    flex: 1;
+   width: 300px;
+   height: 200px; 
+   border: 3px solid yellow;
+   display: flex;
+   background-color: red;
+   margin: 3%;
+   border-radius: 20px;
+}
+
+
+
+
