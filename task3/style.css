@@ -10,28 +10,28 @@ body {
 }
 
 
-.hero {
+.top {
     display: flex;
     justify-content: space-between;
     padding: 60px;
     background: white;
 }
 
-.hero-left {
+.top-left {
     width: 45%;
 }
 
-.hero-left h1 {
+.top-left h1 {
     font-size: 42px;
     color: #0b1c2d;
     margin-bottom: 20px;
 }
 
-.hero-left span {
+.top-left span {
     font-weight: bold;
 }
 
-.hero-left p {
+.top-left p {
     color: #555;
     margin-bottom: 25px;
     line-height: 1.6;
@@ -46,13 +46,13 @@ body {
     cursor: pointer;
 }
 
-.hero-right {
+.top-right {
     width: 45%;
     display: flex;
     gap: 20px;
 }
 
-.hero-right img {
+.top-right img {
     width: 50%;
     height: 350px;
     object-fit: cover;
@@ -96,28 +96,28 @@ body {
 }
 
 
-.stats {
+.cards {
     width: 50%;
     display: flex;
     justify-content: space-between;
 }
 
-.stat {
+.card {
     background: white;
     padding: 25px 35px;
     text-align: center;
 }
 
-.stat h2 {
+.card h2 {
     font-size: 28px;
     margin-bottom: 5px;
 }
 
-.stat p {
+.card p {
     color: grey;
 }
 
-.stat.active {
+.card.active {
     background: green;
     color: white;
 }
